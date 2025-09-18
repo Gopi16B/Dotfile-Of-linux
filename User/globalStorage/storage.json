@@ -1,0 +1,77 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "33235de993e7e79e830b4f1269d3ceeee279a290b3f5c240de6deeb3198360c4",
+    "telemetry.devDeviceId": "a1fc811a-b132-4ee1-aece-71cae77b3770",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///mnt/HDD/Code/ComputerProject"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///mnt/HDD/Code/ComputerProject": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///mnt/HDD/Code/ComputerProject",
+            "backupPath": "/home/dibash/.config/Code/Backups/d8930bc6b4a9f272ecb9004527ebc24c",
+            "uiState": {
+                "mode": 0,
+                "x": 360,
+                "y": 140,
+                "width": 1200,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#212121",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#eeffff",
+            "background": "#212121",
+            "editorBackground": "#212121",
+            "titleBarBackground": "#212121",
+            "titleBarBorder": "rgba(33, 33, 33, 0.38)",
+            "activityBarBackground": "#212121",
+            "activityBarBorder": "rgba(33, 33, 33, 0.38)",
+            "sideBarBackground": "#212121",
+            "sideBarBorder": "rgba(33, 33, 33, 0.38)",
+            "statusBarBackground": "#212121",
+            "statusBarBorder": "rgba(33, 33, 33, 0.38)",
+            "statusBarNoFolderBackground": "#212121"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "e7050ab723a40df744b83955ae5d1407": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
