@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=My Red Black
+Description=Custom red/black splash with logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/my-red-black
+ScriptFile=/usr/share/plymouth/themes/my-red-black/my-red-black.script
