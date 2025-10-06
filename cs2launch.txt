@@ -1,0 +1,1 @@
+PULSE_LATENCY_MSEC=60 LD_PRELOAD="" __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only SDL_AUDIODRIVER=pulseaudio gamemoderun mangohud %command% -high -windowed -novid -console -tickrate 128 -nojoy +cl_showfps 1
