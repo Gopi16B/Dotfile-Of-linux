@@ -16,6 +16,9 @@ fi
 
 # Packages to install via yay (AUR + official repos)
 YAY_PACKAGES=(
+  discord
+  nvidia-utils
+  flatpak
   gamemode
   micro
   kitty
@@ -25,7 +28,6 @@ YAY_PACKAGES=(
   nvidia-prime
   preload
   steam
-  sklauncher-bin
   spotify
   tk
   viber
