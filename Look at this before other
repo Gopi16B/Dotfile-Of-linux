@@ -1,0 +1,41 @@
+#!/bin/bash
+
+echo "Updating system..."
+sudo pacman -Syu --noconfirm
+
+echo "Installing base utilities..."
+sudo pacman -S --noconfirm sudo nano git base-devel
+
+echo "Installing bootloader..."
+sudo pacman -S --noconfirm grub efibootmgr os-prober
+
+echo "Installing Linux Zen kernel..."
+sudo pacman -S --noconfirm linux-zen linux-zen-headers
+
+echo "Installing KDE Plasma desktop..."
+sudo pacman -S --noconfirm plasma kde-applications
+
+echo "Installing KDE tools..."
+sudo pacman -S --noconfirm dolphin konsole
+
+echo "Installing display manager..."
+sudo pacman -S --noconfirm sddm
+sudo systemctl enable sddm
+
+echo "Installing networking..."
+sudo pacman -S --noconfirm networkmanager
+sudo systemctl enable NetworkManager
+
+echo "Installing audio system..."
+sudo pacman -S --noconfirm pipewire pipewire-alsa pipewire-pulse wireplumber
+
+echo "Installing common programs..."
+sudo pacman -S --noconfirm firefox neofetch htop unzip
+
+echo "Installing yay AUR helper..."
+cd /tmp
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si --noconfirm
+
+echo "Installation complete."
